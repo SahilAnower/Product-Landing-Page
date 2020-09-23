@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header id="header">
+    <img src="geek.png" id="header-img" alt="my-logo" class="brand-logo content">
+    <h1 class="content">Original Trombones</h1>
+    <nav id="nav-bar" class="content">
+      <ul>
+        <li><a href="#Features" class="nav-link">Features</a></li>
+        <li><a href="#video" class="nav-link">How It Works</a></li>
+        <li><a href="#Pricing" class="nav-link">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- Form -->
+    <form action=" https://www.freecodecamp.com/email-submit" method="post" id="form">
+      <label for="email">Handcrafted, home-made masterpieces</label>
+      <br>
+      <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+      <br>
+      <input type="submit" id="submit" name="submit" value="Get Started">
+    </form>
+    <!-- Features -->
+    <div id="Features">
+      <div class="flexo">
+        <div><i class="fas fa-burn fa-5x icon"></i></div>
+        <div class="feature">
+          <h3>Premium Materials</h3>
+          <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+        </div>
+      </div>
+      <div class="flexo">
+        <div><i class="fas fa-shipping-fast fa-5x icon"></i></div>
+        <div class="feature">
+          <h3>Fast Shipping</h3>
+          <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+        </div>
+      </div>
+      <div class="flexo">
+        <div><i class="fas fa-battery-full fa-5x icon"></i></div>
+        <div class="feature">
+          <h3>Quality Assurance</h3>
+          <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Video Embedded -->
+    <iframe id="video" width="500" height="350" src="https://www.youtube.com/embed/bmOucZpFrVw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!-- Subscription Cards -->
+    <div class="Cards" id="Pricing">
+      <div class="Card">
+        <h2>Tenor Trombone</h2>
+        <h3>$600</h3>
+        <p>Lorem ipsum.</p>
+        <p>Lorem ipsum.</p>
+        <p>Lorem ipsum dolor.</p>
+        <p>Lorem ipsum.</p>
+        <a href="#" class="btn btn-yellow">SELECT</a>
+      </div>
+      <div class="Card">
+        <h2>Bass Trombone</h2>
+        <h3>$900</h3>
+        <p>Lorem ipsum.</p>
+        <p>Lorem ipsum.</p>
+        <p>Lorem ipsum dolor.</p>
+        <p>Lorem ipsum.</p>
+        <a href="#" class="btn btn-yellow">SELECT</a>
+      </div>
+      <div class="Card">
+        <h2>Valve Trombone</h2>
+        <h3>$1200</h3>
+        <p>Plays similar to a trumpet.</p>
+        <p>Great for Jazz bands.</p>
+        <p>Lorem ipsum dolor.</p>
+        <p>Lorem ipsum.</p>
+        <a href="#" class="btn btn-yellow">SELECT</a>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <a href="#">Privacy</a>
+    <a href="#">Terms</a>
+    <a href="#">Contact</a>
+    <p>Copywright 2016, Original Trombones</p>
+  </footer>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" charset="utf-8"></script>
+</body>
+
+</html>
